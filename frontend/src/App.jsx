@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-const API = import.meta.env.VITE_API_URL || "http://localhost:8000";
+const API = "https://phishshield-production-9182.up.railway.app";
 
 const RISK_CONFIG = {
   high:   { color: "#E24B4A", bg: "#FCEBEB", label: "HIGH RISK",   icon: "⛔" },
